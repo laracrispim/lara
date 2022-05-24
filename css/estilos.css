@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Carnevalee';
+    src: url('Carnevalee Freakshow.ttf');
+}
+:root{
+    --cor_fundo: #a2825c;
+    --cor_paragrafo: #88d3ab;
+    --cor_titulo:#f5da7a;
+    --cor_link: #88d3ab;
+    --fonte_principal: monospace;
+    --fonte_tamanho: 16px;
+    --cor_borda:#88d3ab;
+}
+
+body {
+    font-family: var(--fonte_principal);
+    background-color: var(--cor_fundo);
+    width: 500px;
+    max-width: 100%;
+    /*0-> CIMA | BAIXO*/
+    /*AUTO-> ESQUERDA|DIREITA*/
+    margin: 0 auto;
+    /* margin-left:auto;
+    margin-top: 0;
+    margin-botton: o;*/
+    margin-right: auto;
+    font-size: var(--fonte_tamanho);
+}
+
+div.imagem{
+    text-align: center;
+}
+
+h1 { 
+    color: #88d3ab;
+}
+
+body p {
+     color: var(--cor_paragrafo);
+     text-align: justify;
+     font-family: var(--fonte_principal);
+}
+ul {
+    padding: 0;
+    list-style: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+ul li a {
+    color: #88d3ab;
+    text-decoration: none;
+}
+img {
+    width: 150px;
+    background-color: #f9fad2;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: var(--cor_borda);
+    border-style: solid;
+} 
